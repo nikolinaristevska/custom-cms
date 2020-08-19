@@ -1,0 +1,152 @@
+/* =============================================================================
+
+* Template name : Ecada - Responsive Multipurpose Template
+* Author : @encodeslife
+* Version : v2.0
+* Website: http://encodeslife.com
+* Created : 22 November 2017
+* Last update : 12 June 2019
+
+============================================================================= */
+
+i.style-switcher-btn {
+    position: fixed;
+    top: 37px;
+    right: 0;
+    color: #fff;
+    padding: 10px;
+    background: #222;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 18px;
+    z-index: 555555;
+    cursor: pointer;
+}
+i.style-switcher-btn:hover {
+    background: #000;
+}
+.style-switcher {
+    position: fixed;
+    top: 37px;
+    right: 0;
+    color: #fff;
+    width: 240px;
+    display: none;
+    background: #333;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    z-index: 555555;
+}
+.style-switcher-header {
+    background: #252525;
+    padding: 8px 15px;
+    border-top-left-radius: 4px;
+}
+.style-switcher-header .style-switcher-heading {
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.style-switcher-body .style-switcher-heading {
+    color: #f3f3f3;
+    font-size: 15px;
+    margin-bottom: 10px;
+    float: left;
+}
+.style-switcher-body .style-switcher-heading:after {
+    content: '';
+    height: 1px;
+    display: block;
+    margin-top: 2px;
+    background: linear-gradient(to right, rgba(147,147,147,1) 0%,rgba(0,0,0,0) 100%);
+}
+.style-switcher-header .style-switcher-close {
+    top: 9px;
+    right: 6px;
+    position: absolute;
+}
+.style-switcher-header .style-switcher-close i {
+    color: #999;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.style-switcher-header .style-switcher-close i:hover {
+    color: #fff;
+}
+.style-switcher-body hr {
+    margin: 10px 0;
+    border-color: #454545;
+}
+.style-switcher-body {
+    padding: 10px 15px;
+}
+.style-switcher button {
+    width: 100px;
+    float: left;
+}
+.style-switcher ul {
+    margin-bottom: 0;
+    float: left;
+}
+.style-switcher li {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    background: #777;
+    margin-right: 6px;
+    border-radius: 4px;
+    padding-bottom: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.style-switcher li.last {
+    margin-right: 0;
+}
+.style-switcher li:hover,
+.style-switcher li.theme-active {
+    border: 2px solid #fff;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.style-switcher li.theme-orange {
+    background: #f7931d;
+}
+.style-switcher li.theme-red {
+    background: #e74c3c;
+}
+.style-switcher li.theme-dark-red {
+    background: #a10f2b;
+}
+.style-switcher li.theme-aqua {
+    background: #27d7e7;
+}
+.style-switcher li.theme-blue {
+    background: #3498db;
+}
+.style-switcher li.theme-dark-blue {
+    background: #4765a0;
+}
+.style-switcher li.theme-purple {
+    background: #9b6bcc;
+}
+.style-switcher li.theme-brown {
+    background: #9c8061;
+}
+.style-switcher li.theme-yellow {
+    background: #ffcc00;
+}
+.style-switcher li.theme-light-green {
+    background: #79d5b3;
+}
+.style-switcher li.theme-teal {
+    background: #18ba9b;
+}
+.style-switcher li.theme-green {
+    background: #72c02c;
+}

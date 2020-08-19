@@ -1,0 +1,190 @@
+/*Import custom_hover_effect.css*/
+@import url(hover.css);
+
+.effects .tag-box a{
+	margin:0 10px 10px 0;
+}
+
+.effects .tag-box h2.heading-sm{
+	font-size:18px;
+	line-height:26px;
+}
+
+/*custom_hover_effect*/
+.effects .button {
+	margin:10px;
+	padding:10px;
+	cursor:pointer;
+}
+
+.effects a.button:hover{
+	text-decoration:none;
+}
+
+.effects .hvr-fade:active,
+.effects .hvr-fade:focus,
+.effects .hvr-fade:hover,
+.effects .hvr-back-pulse:active,
+.effects .hvr-back-pulse:focus,
+.effects .hvr-back-pulse:hover{
+	background-color:#8c54c4;
+	color:#fff;
+}
+
+.effects .hvr-sweep-to-right:before,
+.effects .hvr-sweep-to-left:before,
+.effects .hvr-sweep-to-bottom:before,
+.effects .hvr-bounce-to-right:before,
+.effects .hvr-bounce-to-left:before,
+.effects .hvr-bounce-to-bottom:before,
+.effects .hvr-bounce-to-top:before,
+.effects .hvr-sweep-to-top:before,
+.effects .hvr-sweep-to-top:before,
+.effects .hvr-rectangle-out:before,
+.effects .hvr-shutter-out-horizontal:before,
+.effects .hvr-shutter-out-vertical:before{
+	background:#8c54c4;
+}
+
+.effects .hvr-radial-in:before,
+.effects .hvr-rectangle-in:before,
+.effects .hvr-shutter-in-horizontal:before,
+.effects .hvr-shutter-in-vertical:before,
+.effects .hvr-underline-from-left:before,
+.effects .hvr-underline-from-center:before,
+.effects .hvr-underline-from-right:before,
+.effects .hvr-underline-reveal:before,
+.effects .hvr-overline-reveal:before,
+.effects .hvr-overline-from-left:before,
+.effects .hvr-overline-from-center:before,
+.effects .hvr-overline-from-right:before{
+	background:#fff !important;
+}
+
+.effects .hvr-border-fade,
+.effects .hvr-hollow{
+	box-shadow:inset 0 0 0 4px #fff,0 0 1px transparent;
+}
+
+.effects .hvr-border-fade:active,
+.effects .hvr-border-fade:focus,
+.effects .hvr-border-fade:hover,
+.effects .hvr-hollow:active,
+.effects .hvr-hollow:focus,
+.effects .hvr-hollow:hover{
+	box-shadow:inset 0 0 0 4px #e3301c,0 0 1px transparent
+}
+
+.effects .hvr-ripple-out:before{
+	border:#fff solid 6px;
+}
+
+.effects .hvr-ripple-in:before{
+	border:#fff solid 4px;
+}
+
+.effects .hvr-outline-out:before,
+.effects .hvr-outline-in:before{
+	border:#e3301c solid 4px;
+}
+
+.effects .hvr-reveal:before{
+	border-color:#fff !important;
+}
+
+.effects .hvr-border-fade,
+.effects .hvr-hollow,
+.effects .hvr-trim,
+.effects .hvr-outline-outward,
+.effects .hvr-outline-inward,
+.effects .hvr-round-corners{
+	color:#fff !important;
+}
+
+.effects .hvr-hollow:hover{
+	background:#fff !important;
+	color:#555 !important;
+}
+
+.effects .hvr-round-corners:hover{
+	border-radius:1em !important;
+}
+
+.effects .hvr-bubble-float-top, 
+.effects .hvr-bubble-float-right, 
+.effects .hvr-bubble-float-left, 
+.effects .hvr-bubble-float-bottom{
+	transform:inherit;
+}
+
+.effects .hvr-bubble-float-top, 
+.effects .hvr-bubble-float-right, 
+.effects .hvr-bubble-float-left, 
+.effects .hvr-bubble-float-bottom:hover{
+	color:#fff !important;
+}
+
+.effects .hvr-bubble-top:before{
+	border-color:transparent transparent #f7931d transparent;
+}
+
+.effects .hvr-bubble-right:before{
+	border-color:transparent transparent transparent #f7931d;
+}
+
+.effects .hvr-bubble-bottom:before{
+	border-color:#f7931d transparent transparent transparent;
+}
+
+.effects .hvr-bubble-left:before{
+	border-color:transparent #f7931d transparent transparent;
+}
+
+.effects .hvr-bubble-top:active:before,
+.effects .hvr-bubble-top:hover:before,
+.effects .hvr-bubble-top:focus:before,
+.effects .hvr-bubble-float-top:before{
+	border-color:transparent transparent #dd7a08 transparent;
+}
+
+.effects .hvr-bubble-right:active:before,
+.effects .hvr-bubble-right:hover:before,
+.effects .hvr-bubble-right:focus:before,
+.effects .hvr-bubble-float-right:before{
+	border-color: transparent transparent transparent #dd7a08;
+}
+
+.effects .hvr-bubble-bottom:active:before,
+.effects .hvr-bubble-bottom:hover:before,
+.effects .hvr-bubble-bottom:focus:before,
+.effects .hvr-bubble-float-bottom:before{
+	border-color: #dd7a08 transparent transparent transparent;
+}
+
+.effects .hvr-bubble-left:active:before,
+.effects .hvr-bubble-left:hover:before,
+.effects .hvr-bubble-left:focus:before,
+.effects .hvr-bubble-float-left:before{
+	border-color: transparent #dd7a08 transparent transparent;
+}
+
+.effects .curl-top-left:before{
+	background: -webkit-linear-gradient(315deg, white 45%, #eee 50%, #eee 56%, white 80%);
+	background: linear-gradient(135deg, white 45%, #eee 50%, #eee 56%, white 80%);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#000000');
+}
+
+.effects .curl-top-right:before{
+	background: -webkit-linear-gradient(225deg, white 45%, #eee 50%, #eee 56%, white 80%);
+	background: linear-gradient(225deg, white 45%, #eee 50%, #eee 56%, white 80%);
+}
+
+.effects .curl-bottom-right:before{
+	background: -webkit-linear-gradient(135deg, white 45%, #eee 50%, #eee 56%, white 80%);
+	background: linear-gradient(315deg, white 45%, #eee 50%, #eee 56%, white 80%);
+}
+
+.effects .curl-bottom-left:before{
+	background: -webkit-linear-gradient(45deg, white 45%, #eee 50%, #eee 56%, white 80%);
+	background: linear-gradient(45deg, white 45%, #eee 50%, #eee 56%, white 80%);
+}
